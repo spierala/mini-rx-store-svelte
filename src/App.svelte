@@ -4,7 +4,6 @@
 
 <main>
 	<h1>Counter {$count}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 
 	<button on:click={increment}>Increment</button>
 	<button on:click={decrement}>Decrement</button>

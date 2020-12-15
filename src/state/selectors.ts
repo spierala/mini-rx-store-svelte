@@ -1,3 +1,5 @@
+// SELECTORS (memoized)
+
 import { createFeatureSelector, createSelector } from 'mini-rx-store';
 import type { CounterState } from './reducer';
 import { counterFeatureName } from './reducer';
